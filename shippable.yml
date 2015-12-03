@@ -21,7 +21,7 @@ notifications:
         recipients:
              - testnotifications.beta@gmail.com
              - notify_ci34@yahoo.in
-        on_success: change
+        on_success: always
         on_failure: always
     irc: "chat.freenode.net#test-irc"
     
