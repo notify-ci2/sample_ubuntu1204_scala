@@ -5,6 +5,9 @@ scala:
 
 build_image: shipimg/ubuntu1204_scala
 
+env: 
+    - FOO=test
+
 before_script:
   - export PATH=$PATH:$SHIPPABLE_REPO_DIR
 
