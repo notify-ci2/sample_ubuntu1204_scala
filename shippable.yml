@@ -20,6 +20,6 @@ notifications:
     email:
         notify_ci34@yahoo.in
         varsha@shippable.com
-    irc: "chat.freenode.nettest-irc#"
+    irc: "chat.freenode.net#test-irc"
     
 archive: true
