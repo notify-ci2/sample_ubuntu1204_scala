@@ -3,10 +3,7 @@ language: scala
 scala:
     - 2.11.0
 
-build_image: shipimg/ubuntu1204_scala
-
-env: 
-    - FOO=test
+build_image: shippable/minv2
 
 before_script:
   - export PATH=$PATH:$SHIPPABLE_REPO_DIR
